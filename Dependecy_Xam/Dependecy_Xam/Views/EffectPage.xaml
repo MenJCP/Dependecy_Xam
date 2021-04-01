@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dependecy_Xam.Views.EffectPage"
+             xmlns:Effect="clr-namespace:Dependecy_Xam.Effects">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Effect attached to an Entry" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Entry>
+                <Entry.Effects>
+                    <Effect:Effect/>
+                </Entry.Effects>
+            </Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
